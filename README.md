@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="VeppoShoesShop" title="VeppoShoesShop" src=".github/GoStack_bootcamp.png" width="300px" />
+</h1>
 
-## Available Scripts
+## :rocket: VeppoShoesShop
+This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp).
 
-In the project directory, you can run:
+## :low_brightness: Technologies
 
-### `yarn start`
+This project was build using the command "yarn create react-app my-app" and developed with the following technologies:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-  [reactJS][reactjs]: is a JavaScript library used in web development to build interactive elements on websites.
+-  [react-toastify][toastify]: used to add notifications to the user.
+-  [redux][redux]: is a JavaScript library that implements Flux architecture used to control global states.
+-  [redux-saga][saga]: middleware that intercepts Actions.
+-  [axios][axios]: used to read the json file for the mock api.
+-  [styled-components][styled]: is a JavaScript library used for site stylization.
+-  [history][history]: used to map the browser history and control the user navigation / redirects.
+-  [immer][immer]: is a tiny package that allows you to work with immutable state in a more convenient way.
+-  [polished][polished]: is a lightweight toolset for writing styles in JavaScript.
+-  [reactotron][reactotron]: used only in development env, is a log tool that also must be intalled.
+-  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][prettier]
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :information_source: How To Use
 
-### `yarn test`
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com/Veppo/VeppoShoesShop.git
 
-### `yarn build`
+# Go into the repository
+$ cd VeppoShoesShop
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+$ yarn install
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Run the app
+$ yarn start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run the mock database
+$ json-server server.json -p 3333
+```
 
-### `yarn eject`
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/Veppo/GoBarber/blob/master/LICENSE) for more information.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[reactjs]: https://pt-br.reactjs.org/docs/getting-started.html
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://prettier.io/
+[redux]: https://redux.js.org/
+[axios]: https://www.npmjs.com/package/axios
+[styled]: https://styled-components.com/docs
+[history]: https://www.npmjs.com/package/history
+[immer]: https://immerjs.github.io/immer/docs/introduction
+[polished]: https://polished.js.org/docs/
+[reactotron]: https://www.npmjs.com/package/reactotron
+[toastify]: https://www.npmjs.com/package/react-toastify
+[saga]: https://redux-saga.js.org/
